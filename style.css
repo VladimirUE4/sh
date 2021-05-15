@@ -327,6 +327,7 @@ nav .menu .menu_icon:hover .icon:after {
 .wrapper .container .three,
 .wrapper .container .circle,
 .wrapper .container .p404 {
+  font-size:100px;
   width: 60%;
   height: 60%;
   top: 20% !important;

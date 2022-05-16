@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preload" href="Gotham-Medium.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("BG2.jpg");
+  position:relative;
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index:-1;
+}
+
+.sh {
+  /* The image used */
+  background-image: url("sh.svg");
+  position:fixed;
+  margin-left:30vh;
+  margin-top:-70vh;
+  width: 45vh;
+  height: 42.7vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+
+}
+
+.text {
+  text-align: center;
+  margin-top:-50vh;
+  margin-left: 70vh;
+  font-family: 'Gotham';
+    font-weight: 500;
+    font-style: normal;
+    font-size:5vh;
+    color: white;
+
+}
+.text2 {
+  text-align: center;
+  margin-top:-50vh;
+  margin-left: 70vh;
+  font-family: 'Gotham';
+    font-weight: 500;
+    font-style: normal;
+    font-size:1.5vh;
+    color: white;
+
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('Gotham-Medium.woff2') format('woff2'),
+        url('Gotham-Medium.woff') format('woff');
+    font-style: normal;
+    font-display: swap;
+}
+
+.button {
+
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  margin-top:3vh; 
+  margin-left: 125vh;
+  height:5%;
+  width:10%;
+  cursor: help;
+}
+.button:hover{
+  transform:scale(1.01);
+}
+.button1 {border-radius: 25px;}
+</style>
+</head>
+<body>
+<div class="bg"></div>
+<div class="sh"></div>
+<div class="text">SOCIAL-HOME</div>
+<a href="https://discord.gg/zztZyMpbSE">
+<button class="button button1 text2">Discord</button>
+</a>
+</body>
+</html>
